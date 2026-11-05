@@ -1,0 +1,22 @@
+{
+  "name": "coverage-drop",
+  "version": "0.1.0",
+  "description": "Did this change lower the test coverage of the code it touched? Compares two LCOV reports and lists the added lines no test runs.",
+  "type": "module",
+  "bin": {
+    "coverage-drop": "coverage-drop.mjs"
+  },
+  "files": ["coverage-drop.mjs", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["coverage", "lcov", "diff", "ci", "pull-request", "test-coverage", "cli"],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tick-ai/coverage-drop.git"
+  }
+}
